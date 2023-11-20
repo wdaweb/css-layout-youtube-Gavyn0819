@@ -1,0 +1,81 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  background-color: whitesmoke;
+  width: 100%;
+  height: 100%;
+}
+
+.section {
+  height: 5000px;
+  width: 400px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 2rem;
+  background-color: black;
+}
+
+.header {
+  height: 50px;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 2rem;
+  background-color: gray;
+}
+
+#button {
+  background-color: black;
+}
+
+.logo {
+  width: 90px;
+  height: 20px;
+}
+.logo svg {
+  width: 100%;
+  height: 100%;
+}
+
+.search-bar {
+  display: flex;
+  margin-right: 5px;
+}
+input[type="text"] {
+  padding: 10px;
+  border: none;
+  border-radius: 4px;
+}
+
+.fa-solid fa-magnifying-glass button {
+  background-color: #ff0000;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  padding: 10px 15px;
+  margin-left: 5px;
+  cursor: pointer;
+}
+
+.video-list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+.video-card {
+  width: 300px;
+  margin: 10px;
+  padding: 10px;
+  border: 1px solid #ddd;
+  background-color: #fff;
+}
+
+/* Add more CSS for styling video cards and other elements as needed */
